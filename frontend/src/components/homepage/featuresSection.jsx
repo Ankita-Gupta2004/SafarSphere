@@ -62,7 +62,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-20 bg-gray-100 dark:bg-gray-900 ">
+    <section className="py-20 bg-gray-100 bg-gradient-to-t from-gray-100 to-gray-100 dark:from-black dark:to-gray-900 ">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
         {/* Heading */}
         <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white mb-6">
@@ -77,7 +77,7 @@ export default function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-800 p-8 rounded-2xl flex flex-col items-center text-center border border-transparent hover:border-teal-500 dark:hover:border-teal-400 transition"
+              className="bg-white dark:bg-gray-900 p-8 rounded-2xl flex flex-col items-center text-center border border-transparent hover:border-teal-500 dark:hover:border-teal-400 transition"
             >
               <div className="text-teal-500 dark:text-teal-400 mb-4">
                 {feature.icon}

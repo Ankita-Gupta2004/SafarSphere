@@ -11,7 +11,7 @@ const Navbar = () => {
           
           {/* Logo (Left) */}
           <div className="flex-shrink-0 text-2xl font-bold text-emerald-600 dark:text-emerald-400">
-            TravelMate
+            SafarSphere
           </div>
 
           {/* Desktop Menu (Centered) */}

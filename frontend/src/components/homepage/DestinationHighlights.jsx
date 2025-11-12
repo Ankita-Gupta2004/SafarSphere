@@ -48,7 +48,7 @@ const destinations = [
 
 export default function DestinationHighlights() {
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-900">
+    <section className="py-20 bg-gradient-to-b from-gray-100 to-gray-100 dark:from-black dark:to-gray-900">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center mb-12">
         <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white mb-4">
           Top Destinations to Explore

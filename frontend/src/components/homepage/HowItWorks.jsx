@@ -34,8 +34,8 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="py-24 bg-gray-100 dark:bg-gray-900 flex justify-center">
-      <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg w-full max-w-5xl">
+    <section className="py-24 bg-gradient-to-t from-gray-100 to-gray-100 dark:from-black dark:to-gray-900 flex justify-center">
+      <div className="bg-gradient-to-b from-gray-100 to-gray-100 dark:from-black dark:to-gray-900 p-8 rounded-xl shadow-lg w-full max-w-5xl">
         {/* Section Heading */}
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-10 text-center flex items-center justify-center gap-3">
           <MapPin className="text-teal-500 dark:text-teal-400" size={32} />

@@ -40,7 +40,7 @@ export default function DestinationMap() {
   };
 
   return (
-    <section className="py-16 bg-gray-50 dark:bg-gray-900 flex flex-col items-center gap-6">
+    <section className="py-16 bg-gradient-to-b from-gray-100 to-gray-100 dark:from-black dark:to-gray-900 flex flex-col items-center gap-6">
       <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
         Explore Destinations
       </h2>
