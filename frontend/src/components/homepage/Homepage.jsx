@@ -5,6 +5,8 @@ import FeaturesSection from './featuresSection'
 import DestinationHighlights from './DestinationHighlights'
 import HowItWorks from './HowItWorks'
 import DestinationMap from './DestinationMap'
+import CTASection from './CTASection'
+import Footer from '../Footer'
 
 const Homepage = () => {
   return (
@@ -15,6 +17,8 @@ const Homepage = () => {
         <DestinationHighlights />
         <HowItWorks />
         <DestinationMap />
+        <CTASection />
+        <Footer/>
     </>
   )
 }
