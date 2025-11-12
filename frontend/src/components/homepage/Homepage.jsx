@@ -4,6 +4,7 @@ import Navbar from '../Navbar'
 import FeaturesSection from './featuresSection'
 import DestinationHighlights from './DestinationHighlights'
 import HowItWorks from './HowItWorks'
+import DestinationMap from './DestinationMap'
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
         <FeaturesSection />
         <DestinationHighlights />
         <HowItWorks />
+        <DestinationMap />
     </>
   )
 }
