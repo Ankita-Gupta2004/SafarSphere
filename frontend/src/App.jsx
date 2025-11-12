@@ -1,9 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+
+import Homepage from './components/homepage/Homepage';
 function App() {
   return (
     <>
-      <Navbar />
+      <Homepage />
+      
     </>
   );
 }

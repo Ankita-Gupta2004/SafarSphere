@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { SunIcon, MoonIcon } from "@heroicons/react/24/solid";
+import { FiSun, FiMoon } from "react-icons/fi"; // <- changed icons
 
 const ThemeToggle = () => {
   const [darkMode, setDarkMode] = useState(
@@ -25,9 +25,9 @@ const ThemeToggle = () => {
                              : "bg-emerald-700 hover:bg-emerald-400 shadow-emerald-200/40"}`}
     >
       {darkMode ? (
-        <SunIcon className="w-6 h-6 text-yellow-400" />
+        <FiSun className="w-6 h-6 text-yellow-400" />
       ) : (
-        <MoonIcon className="w-6 h-6 text-gray-300" />
+        <FiMoon className="w-6 h-6 text-gray-300" />
       )}
     </button>
   );
