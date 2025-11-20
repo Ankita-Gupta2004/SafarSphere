@@ -16,10 +16,10 @@ const Navbar = () => {
 
           {/* Desktop Menu (Centered) */}
           <div className="hidden md:flex space-x-8 flex-1 justify-center items-center">
-            <a href="#home" className="text-gray-800 dark:text-gray-200 hover:text-emerald-500">
+            <a href="/" className="text-gray-800 dark:text-gray-200 hover:text-emerald-500">
               Home
             </a>
-            <a href="#destinations" className="text-gray-800 dark:text-gray-200 hover:text-emerald-500">
+            <a href="/destination" className="text-gray-800 dark:text-gray-200 hover:text-emerald-500">
               Destinations
             </a>
             <a href="#planner" className="text-gray-800 dark:text-gray-200 hover:text-emerald-500">
